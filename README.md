@@ -2,7 +2,7 @@
 To run the code clone the repository
 
 ```
-git clone xxxx
+git clone https://github.com/skaae/torch-gan.git
 ```
 
 `cd` to the `datasets` subfolder and run `create_dataset.py`. This will create the [labeled faces in the wildt dataset](http://vis-www.cs.umass.edu/lfw/). This may take a while depending on your internet connection etc.
@@ -21,4 +21,5 @@ where `-g 0` specifies the GPU you want to use. The code will only run on GPU, b
  *  numpy
  *  skimage
  *  h5py
+ *  [torch hdf5](https://github.com/deepmind/torch-hdf5)
  *  [cudnn for torch](https://github.com/soumith/cudnn.torch)
