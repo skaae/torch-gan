@@ -20,7 +20,8 @@ After a 5-10 epochs you should see something that looks like a face.
 
 
 #### Move in latent space
-**[Latent space movie](https://www.youtube.com/watch?v=PmC6ZOaCAOs&feature=youtu.be)**
+**[Latent space movie](https://www.youtube.com/watch?v=PmC6ZOaCAOs&feature=youtu.be)**    
+
 ![Faces](out.gif)
 
 
