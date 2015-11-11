@@ -1,4 +1,4 @@
-## Running the code
+## Torch convolutional GAN
 To run the code clone the repository
 
 ```
@@ -15,8 +15,23 @@ th train_lfw.lua -g 0
 
 where `-g 0` specifies the GPU you want to use. The code will only run on GPU, but you can esily modify to run on CPU by removing the cudnn dependencies.
 
+The code will plot 100 generated images after each epoch.
+After a 5-10 epochs you should see something that looks like a face.
 
-##### dependencies
+
+#### Move in latent space
+**[Latent space movie](https://www.youtube.com/watch?v=PmC6ZOaCAOs&feature=youtu.be)**
+![Faces](out.gif)
+
+
+
+
+#### 100 epochs
+![Faces](example.png)
+
+
+
+##### Dependencies
  *  Torch
  *  numpy
  *  skimage
