@@ -45,7 +45,7 @@ if opt.gpu < 0 or opt.gpu > 3 then opt.gpu = false end
 
 -- Code does not run without gpu, manually change cunn to nn to run in without
 -- gpu.
-assert(opg.gpu==true)
+assert(opt.gpu==true)
 
 
 print(opt)
